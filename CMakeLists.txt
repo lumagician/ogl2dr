@@ -9,3 +9,5 @@ set(CMAKE_CXX_STANDARD 11)
 add_subdirectory( glfw )
 
 add_subdirectory( glad )
+
+add_library(ogl2dr ogl2dr.h ogl2dr.cpp)
